@@ -295,15 +295,48 @@ Supports:
 
 ---
 
-# 🌐 Ingress & Domain Setup
+# 🌐 AWS Ingress & Domain Setup
 
-Ingress Controller configured to expose services.
+Application traffic is exposed using **AWS Application Load Balancer (ALB) Ingress Controller** instead of a generic ingress controller.
 
-Traffic flow:
+## Components Used
 
-Ingress → Load Balancer → Route53 → Subdomain → App
+* AWS Load Balancer Controller
+* Application Load Balancer (ALB)
+* Kubernetes Ingress Resource
+* Route53 Hosted Zone
+* Subdomain Mapping
 
-Separate subdomains mapped for each environment.
+## Traffic Flow
+
+User → Route53 → ALB (AWS Ingress) → Kubernetes Service → Pods
+
+## Implementation Steps
+
+1. Installed AWS Load Balancer Controller in EKS cluster
+2. Configured IAM role for service account (IRSA)
+3. Created Ingress YAML with ALB annotations
+4. ALB automatically provisioned by AWS
+5. Listener rules mapped to services
+6. Subdomains attached via Route53
+
+## Example Ingress Behavior
+
+* Dev → dev.example.com
+* Staging → staging.example.com
+* Prod → app.example.com
+
+Each environment routes traffic to its respective namespace.
+
+---
+
+## Benefits of AWS ALB Ingress
+
+* Native AWS integration
+* Automatic Load Balancer provisioning
+* Path & host-based routing
+* SSL termination support
+* Better production scalability
 
 ---
 
