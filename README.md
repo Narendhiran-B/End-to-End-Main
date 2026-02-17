@@ -150,6 +150,18 @@ Through this project, I gained hands-on experience in:
 
 ## Deployment Proof / Screenshots
 
+* **VPC**
+
+<img width="1920" height="1138" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/1892cd41-5b59-41b7-b935-32790c5a3282" />
+
+---
+
+* **EKS Cluster**
+
+<img width="1920" height="1138" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/86275a99-6a8a-4d0c-b3fb-78688142ea38" />
+
+---
+
 * **CI Pipeline Execution**
   
   ![github actions](https://github.com/user-attachments/assets/cd6a1e53-d199-4c40-aa5f-55fb85c3b8a9)
@@ -159,6 +171,7 @@ Through this project, I gained hands-on experience in:
 * **Argo CD Sync Dashboard**
   
  <img width="1920" height="1143" alt="Screenshot (64)" src="https://github.com/user-attachments/assets/d56eee2f-faef-4115-bd7c-60acb02674ce" />
+
 
  <img width="1920" height="1135" alt="Screenshot (67)" src="https://github.com/user-attachments/assets/b302f3e1-f76a-43ab-bf27-36bd67e65b6b" />
 
