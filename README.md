@@ -147,20 +147,35 @@ Through this project, I gained hands-on experience in:
 ![end to end image](https://github.com/user-attachments/assets/953ce8da-8887-4a61-aa6c-52a9edfba8b0)
 
 ---
+
 ## Deployment Proof / Screenshots
-* CI Pipeline Execution
+
+* **CI Pipeline Execution**
+  
   ![github actions](https://github.com/user-attachments/assets/cd6a1e53-d199-4c40-aa5f-55fb85c3b8a9)
 
-* Argo CD Sync Dashboard
-  <img width="1920" height="1200" alt="ArgoCD UI" src="https://github.com/user-attachments/assets/87cb8a23-b60f-41da-85a7-178dacc2dd38" />
+---
 
-* Route53 - Hosted zone - Sub-Domains
+* **Argo CD Sync Dashboard**
+  
+ <img width="1920" height="1143" alt="Screenshot (64)" src="https://github.com/user-attachments/assets/d56eee2f-faef-4115-bd7c-60acb02674ce" />
+
+ <img width="1920" height="1135" alt="Screenshot (67)" src="https://github.com/user-attachments/assets/b302f3e1-f76a-43ab-bf27-36bd67e65b6b" />
+
+---
+
+* **Route53 - Hosted zone - Sub-Domains**
+  
   <img width="1920" height="1200" alt="dns" src="https://github.com/user-attachments/assets/66f6d5f6-78d3-4a72-abe9-4f3906244106" />
 
-* Live Application URL
+---
+
+* **Live Application URL**
+  
   <img width="1920" height="1094" alt="Final application output" src="https://github.com/user-attachments/assets/6f159f93-3084-4cc2-a37e-04c575a299c1" />
 
 ---
+
 ## Source Code Repositories
 * Application & CI Pipeline → https://github.com/Narendhiran-B/End-to-End-Main.git
 * GitOps Deployment Repo → https://github.com/Narendhiran-B/End-to-End-GitOps.git
