@@ -168,6 +168,12 @@ Through this project, I gained hands-on experience in:
 
 ---
 
+* **ECR Repository**
+
+<img width="1920" height="1200" alt="Screenshot (79)" src="https://github.com/user-attachments/assets/b1c07384-94f9-430a-a587-f5c634b148a9" />
+
+---
+
 * **Argo CD Sync Dashboard**
   
  <img width="1920" height="1143" alt="Screenshot (64)" src="https://github.com/user-attachments/assets/d56eee2f-faef-4115-bd7c-60acb02674ce" />
